@@ -28,7 +28,6 @@ body{
 
 .red-color{
     color: rgb(107, 0, 0);
-
 }
 
 .navbar .left-navbar{
@@ -47,13 +46,18 @@ body{
     align-items: center;
 }
 .navbar .right-navbar ul li a{
-    padding-left: 50px;
-    transition: 0.3s;
+    padding: 1px 10px;
+    margin: 30px;
     font-size: 18px;
+    box-shadow: inset 0 0 0 0 #ffffff;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
 }
 .navbar .right-navbar ul li a:hover{
-    color: rgb(148, 0, 0);
-    transition: 0.3s;
+    color: rgb(255, 255, 255);
+    box-shadow: inset 200px 0 0 0 #5a0e0083;
+}
+header .center-header-content{
+    display: flex;
 }
 .left-text-header{
     margin-top: 10%;
@@ -68,4 +72,20 @@ body{
     width: 30%;
     color: rgb(255, 255, 255);
     text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.684);
+    
+}
+
+.right-picture-header{
+    width: 100%;
+    margin-top: 85px;
+    right: -50px;
+}
+
+.right-picture-header img{
+    width: 700px;
+    height: 750px;
+    top: 10px;
+
+    float: right;
+
 }
